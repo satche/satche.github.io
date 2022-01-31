@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Plateforme on Un blog qui parle de développement web, de design et d&#39;autres trucs de geek</title>
+    <link>localhost/tags/plateforme/</link>
+    <description>Recent content in Plateforme on Un blog qui parle de développement web, de design et d&#39;autres trucs de geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ch-fr</language>
+    <lastBuildDate>Wed, 05 Jan 2022 17:57:35 +0100</lastBuildDate><atom:link href="localhost/tags/plateforme/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reshot, un outil en ligne pour récupérer du contenu libre de droit</title>
+      <link>localhost/posts/reshot/</link>
+      <pubDate>Wed, 05 Jan 2022 17:57:35 +0100</pubDate>
+      
+      <guid>localhost/posts/reshot/</guid>
+      <description>Introduction Lorsqu&amp;rsquo;on travaille dans le web, utiliser du contenu peut être fastidieux. Il faut scrupulueusement regarder les droits liés à l&amp;rsquo;utilisation dudit contenu et s&amp;rsquo;assurer qu&amp;rsquo;on ne transgresse pas les droits d&amp;rsquo;auteur. Heureusement, des outils existent pour éviter ces problématiques. L&amp;rsquo;une d&amp;rsquo;entre elle est Reshot.
+Présentation Proposé par le société Envato, Reshot offre aujourd&amp;rsquo;hui plus de 40&#39;000 icones, 25&#39;000 photos et 1&#39;500 illustrations format vectoriel toutes utilisables gratuitement et sous license libre.</description>
+      <content>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Lorsqu&amp;rsquo;on travaille dans le web, utiliser du contenu peut être fastidieux. Il faut scrupulueusement regarder les droits liés à l&amp;rsquo;utilisation dudit contenu et s&amp;rsquo;assurer qu&amp;rsquo;on ne transgresse pas les droits d&amp;rsquo;auteur. Heureusement, des outils existent pour éviter ces problématiques. L&amp;rsquo;une d&amp;rsquo;entre elle est &lt;a href=&#34;https://www.reshot.com/&#34;&gt;Reshot&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;présentation&#34;&gt;Présentation&lt;/h2&gt;
+&lt;p&gt;Proposé par le société &lt;a href=&#34;https://www.envato.com/&#34;&gt;Envato&lt;/a&gt;, Reshot offre aujourd&amp;rsquo;hui plus de 40&#39;000 icones, 25&#39;000 photos et 1&#39;500 illustrations format vectoriel toutes utilisables gratuitement et sous license libre.&lt;/p&gt;
+&lt;p&gt;Le contenu proposé peut donc être utilisé dans tous les domaines du numérique, pour des projets profesionnels et commercieux ou non. Une solution pratique à l&amp;rsquo;heure où les réglementations du domaine sont parfois fastidieuses à respecter.&lt;/p&gt;
+&lt;h2 id=&#34;avis&#34;&gt;Avis&lt;/h2&gt;
+&lt;p&gt;La diversité du contenu de Reshot est très attractive. Une option pour choisir le format de la photo est disponible, ce qui facilite grandement le travail. En revanche, le système de recherche laisse à désirer. Si un mot-clé est renseigné, les résultats seront satisfaisants. En revanche, cumuluer des mots-clès semble trop complexe pour la plateforme. En exemple: &amp;ldquo;Smile&amp;rdquo; et &amp;ldquo;Human&amp;rdquo; ne retournent que quatre images. Pourtant, &amp;ldquo;Smile&amp;rdquo; montre clairement qu&amp;rsquo;il y a plus de photos de personnes qui sourient.&lt;/p&gt;
+&lt;p&gt;Effectuer une recherche par couleur va également donner des résultats non désirés. &amp;ldquo;Blue&amp;rdquo; propose parfois des photos qui contiennent certes la couleur bleue, mais qui n&amp;rsquo;en fait pas le thème colorimétrique principal de la photo.&lt;/p&gt;
+&lt;p&gt;L&amp;rsquo;outil est donc pertinent pour trouver rapidement du contenu simple, mais perfectible lors de recherche trop précise et pointue.&lt;/p&gt;
+&lt;h2 id=&#34;autres-sources&#34;&gt;Autres sources&lt;/h2&gt;
+&lt;p&gt;Pour compléter cette liste, voici d&amp;rsquo;autres librairies Open Source qui imitent le concept de Reshot. Citons déjà le célèbre &lt;a href=&#34;https://unsplash.com/&#34;&gt;Unsplash&lt;/a&gt;, qui se concentre sur les contenus photographiques. &lt;a href=&#34;https://pixabay.com/fr/&#34;&gt;Pixabay&lt;/a&gt; étend l&amp;rsquo;offre à d&amp;rsquo;autres types de contenu, musicaux et vidéo y compris. Enfin, &lt;a href=&#34;https://www.pexels.com/&#34;&gt;Pexels&lt;/a&gt; partage des vidéos de qualité grauitement.&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>

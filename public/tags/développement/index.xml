@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Développement on Un blog qui parle de développement web, de design et d&#39;autres trucs de geek</title>
+    <link>localhost/tags/d%C3%A9veloppement/</link>
+    <description>Recent content in Développement on Un blog qui parle de développement web, de design et d&#39;autres trucs de geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ch-fr</language>
+    <lastBuildDate>Wed, 12 Jan 2022 19:53:44 +0100</lastBuildDate><atom:link href="localhost/tags/d%C3%A9veloppement/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Déposer des points aléatoirement au sein d&#39;un cercle</title>
+      <link>localhost/posts/point/</link>
+      <pubDate>Wed, 12 Jan 2022 19:53:44 +0100</pubDate>
+      
+      <guid>localhost/posts/point/</guid>
+      <description>Introduction Cet article n&amp;rsquo;a pas pour but de fournir directement la solution à ce problème via un code optimale dans un langage spécifique. Il sert plutôt à suivre un chemin de réflexion pour aboutir à un résultat satisfaisant et éviter les solutions rapides et bancales.
+Première méthode: Plan cartésien La méthode rapide et primaire consiste à dessiner un carré plutôt qu&amp;rsquo;un cercle. On place sur un plan cartésien les points en corrdonnée X et Y.</description>
+      <content>&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;Cet article n&amp;rsquo;a pas pour but de fournir directement la solution à ce problème via un code optimale dans un langage spécifique. Il sert plutôt à suivre un chemin de réflexion pour aboutir à un résultat satisfaisant et éviter les solutions rapides et bancales.&lt;/p&gt;
+&lt;h1 id=&#34;première-méthode-plan-cartésien&#34;&gt;Première méthode: Plan cartésien&lt;/h1&gt;
+&lt;p&gt;La méthode rapide et primaire consiste à dessiner un carré plutôt qu&amp;rsquo;un cercle. On place sur un plan cartésien les points en corrdonnée X et Y. Une fois fait, on dessine un rond dans ce plan et on rejette tous les points qui sont hors de ce rond (&lt;a href=&#34;https://en.wikipedia.org/wiki/Rejection_sampling&#34;&gt;Rejection Sampling&lt;/a&gt;). En bref, chaque point dont la coordonnée dépasse le cercle compris dans le carré est rejeté. Puis on recommence le processus.&lt;/p&gt;
+&lt;p&gt;La problématique est donc qu&amp;rsquo;on répète l&amp;rsquo;opération plusieurs fois. Certains points sont ignorés, d&amp;rsquo;autres sont acceptés; ce qui rend en apparence la méthode redondante.&lt;/p&gt;
+&lt;h1 id=&#34;seconde-méthode-plan-polaire&#34;&gt;Seconde méthode: Plan polaire&lt;/h1&gt;
+&lt;p&gt;Au lieu d&amp;rsquo;utiliser un plan cartésien, on peut utiliser un plan polaire. On utilise dans ce cas non pas des axes X et Y mais une distance et un angle. Le problème est qu’en répétant l’expérience, les points sont concentrés au centre. En effet, plus on se déplace sur l’extérieur du cercle, plus on écarte les points. Pour rendre le tout plus homogène, il faut utiliser une fonction de distribution plus uniforme; un peu technique pour la mentionner ici.&lt;/p&gt;
+&lt;h1 id=&#34;troisième-méthode-découpage-en-triangle&#34;&gt;Troisième méthode: Découpage en triangle&lt;/h1&gt;
+&lt;p&gt;Une troisième méthode est de découper le cercle en plusieurs triangles. On sélectionne aléatoirement l&amp;rsquo;un de ces triangle et on y dépose le point en suivant une formule de distribution uniforme, à nouveau non expliquée ici pour des raisons techniques.&lt;/p&gt;
+&lt;h1 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h1&gt;
+&lt;p&gt;Les deux dernières méthodes semblent plus élégantes en apparence, car elles forment directement un cercle sans passer par une étape intermédiaire de construction d&amp;rsquo;un carré. Cependant, il semble que la méthode la plus rapide semble la première méthode. Une solution simple, en apparence sous-optimale, s&amp;rsquo;avère finalement également être la plus rapide.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=4y_nmpv-9lI&#34;&gt;The BEST Way to Find a Random Point in a Circle&lt;/a&gt; by &lt;a href=&#34;https://www.youtube.com/channel/UC1tozVUXyve6pkAv6gtcrQQ&#34;&gt;nubDotDev&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>
