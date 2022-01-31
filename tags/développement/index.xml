@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Développement on Un blog qui parle de développement web, de design et d&#39;autres trucs de geek</title>
-    <link>localhost/tags/d%C3%A9veloppement/</link>
+    <link>/tags/d%C3%A9veloppement/</link>
     <description>Recent content in Développement on Un blog qui parle de développement web, de design et d&#39;autres trucs de geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ch-fr</language>
-    <lastBuildDate>Wed, 12 Jan 2022 19:53:44 +0100</lastBuildDate><atom:link href="localhost/tags/d%C3%A9veloppement/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Jan 2022 19:53:44 +0100</lastBuildDate><atom:link href="/tags/d%C3%A9veloppement/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Déposer des points aléatoirement au sein d&#39;un cercle</title>
-      <link>localhost/posts/point/</link>
+      <link>/posts/point/</link>
       <pubDate>Wed, 12 Jan 2022 19:53:44 +0100</pubDate>
       
-      <guid>localhost/posts/point/</guid>
+      <guid>/posts/point/</guid>
       <description>Introduction Cet article n&amp;rsquo;a pas pour but de fournir directement la solution à ce problème via un code optimale dans un langage spécifique. Il sert plutôt à suivre un chemin de réflexion pour aboutir à un résultat satisfaisant et éviter les solutions rapides et bancales.
 Première méthode: Plan cartésien La méthode rapide et primaire consiste à dessiner un carré plutôt qu&amp;rsquo;un cercle. On place sur un plan cartésien les points en corrdonnée X et Y.</description>
       <content>&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;

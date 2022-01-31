@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Libraries on Un blog qui parle de développement web, de design et d&#39;autres trucs de geek</title>
-    <link>localhost/tags/libraries/</link>
+    <link>/tags/libraries/</link>
     <description>Recent content in Libraries on Un blog qui parle de développement web, de design et d&#39;autres trucs de geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ch-fr</language>
-    <lastBuildDate>Wed, 05 Jan 2022 17:57:35 +0100</lastBuildDate><atom:link href="localhost/tags/libraries/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 05 Jan 2022 17:57:35 +0100</lastBuildDate><atom:link href="/tags/libraries/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Reshot, un outil en ligne pour récupérer du contenu libre de droit</title>
-      <link>localhost/posts/reshot/</link>
+      <link>/posts/reshot/</link>
       <pubDate>Wed, 05 Jan 2022 17:57:35 +0100</pubDate>
       
-      <guid>localhost/posts/reshot/</guid>
+      <guid>/posts/reshot/</guid>
       <description>Introduction Lorsqu&amp;rsquo;on travaille dans le web, utiliser du contenu peut être fastidieux. Il faut scrupulueusement regarder les droits liés à l&amp;rsquo;utilisation dudit contenu et s&amp;rsquo;assurer qu&amp;rsquo;on ne transgresse pas les droits d&amp;rsquo;auteur. Heureusement, des outils existent pour éviter ces problématiques. L&amp;rsquo;une d&amp;rsquo;entre elle est Reshot.
 Présentation Proposé par le société Envato, Reshot offre aujourd&amp;rsquo;hui plus de 40&#39;000 icones, 25&#39;000 photos et 1&#39;500 illustrations format vectoriel toutes utilisables gratuitement et sous license libre.</description>
       <content>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;

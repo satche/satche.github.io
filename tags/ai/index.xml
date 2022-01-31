@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AI on Un blog qui parle de développement web, de design et d&#39;autres trucs de geek</title>
-    <link>localhost/tags/ai/</link>
+    <link>/tags/ai/</link>
     <description>Recent content in AI on Un blog qui parle de développement web, de design et d&#39;autres trucs de geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ch-fr</language>
-    <lastBuildDate>Sun, 23 Jan 2022 10:36:19 +0100</lastBuildDate><atom:link href="localhost/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 23 Jan 2022 10:36:19 +0100</lastBuildDate><atom:link href="/tags/ai/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Github Copilot, le compagnon de code qui mâche le travail</title>
-      <link>localhost/posts/copilot/</link>
+      <link>/posts/copilot/</link>
       <pubDate>Sun, 23 Jan 2022 10:36:19 +0100</pubDate>
       
-      <guid>localhost/posts/copilot/</guid>
+      <guid>/posts/copilot/</guid>
       <description>Introduction Annoncé le 29 juin 2021, Github Copilot est un outil à IA permettant de faire de l&amp;rsquo;auto-completion sur la base de milliards de ligne de code trouvés sur Github. Un outil sensé faire gagner beaucoup de temps et même empêcher les plus flemmards à se casser la tête sur des fonctions compliquées. Installé sur ma machine, je vais directement montrer ici les étendues du programme.
 Premier essai: convertisseur de distance Pour ce premier jet, je vais essayer de faire comprendre à Copilot que je veux une fonction qui convertit une distance en pied en mètres.</description>
       <content>&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;
