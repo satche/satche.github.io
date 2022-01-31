@@ -10,6 +10,6 @@ La beauté du métier est de pouvoir agir sur beaucoup de domaines différents. 
 
 Mon but avec ce blog est de pouvoir renseigner tous les sujets liés à ces domaines qui me passionnent. C'est un endroit personnel, donc les articles ne sont pas destinés directement au grand public, mais font office de notes personnelles.
 
-Le web est un monde où il faut se tenir à jour avec rapidité et précision. Pour celà, les sources ont été répertoriées en trois grandes catégories: design, code et UX/UI. Des "sous-catégories" sont appliquées afin de diferencier plus précisément les posts: articles, documentation, outil, plateforme, ...etc.
+Le web est un monde où il faut se tenir à jour avec rapidité et précision. Pour cela, les sources ont été répertoriées en trois grandes catégories: design, code et UX/UI. Des "sous-catégories" sont appliquées afin de différencier plus précisément les posts: articles, documentation, outil, plateforme, ...etc.
 
 Bonne visite.

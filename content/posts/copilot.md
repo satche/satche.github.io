@@ -12,7 +12,7 @@ readingTime = false
 
 # Introduction
 
-Annoncé le 29 juin 2021, Github Copilot est un outil à IA permettant de faire de l'auto-completion sur la base de milliards de ligne de code trouvés sur Github. Un outil sensé faire gagner beaucoup de temps et même empêcher les plus flemmards à se casser la tête sur des fonctions compliquées. Installé sur ma machine, je vais directement montrer ici les étendues du programme.
+Annoncé le 29 juin 2021, Github Copilot est un outil à IA permettant de faire de l'auto-completion sur la base de milliards de ligne de code trouvés sur Github. Un outil censé faire gagner beaucoup de temps et même empêcher les plus flemmards à se casser la tête sur des fonctions compliquées. Installé sur ma machine, je vais directement montrer ici les étendues du programme.
 
 # Premier essai: convertisseur de distance
 
@@ -68,4 +68,4 @@ Un résultat qui montre les limites de l'outil. Mais je dois admettre qu'il m'a 
 
 # Conclusion
 
-L'outil est très impressionant et permet d'anticiper des lignes de code fastidieuse. À utiliser avec rigueur et attention: le code généré par Copilot est sur la base de milliards de lignes de code récupérées via des repo public sur Github, ce qui n'est pas synonyme de qualité.
+L'outil est très impressionnant et permet d'anticiper des lignes de code fastidieuse. À utiliser avec rigueur et attention: le code généré par Copilot est sur la base de milliards de lignes de code récupérées via des repo public sur Github, ce qui n'est pas synonyme de qualité.

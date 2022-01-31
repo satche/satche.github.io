@@ -15,7 +15,7 @@ Cet article n'a pas pour but de fournir directement la solution à ce problème 
 
 # Première méthode: Plan cartésien
 
-La méthode rapide et primaire consiste à dessiner un carré plutôt qu'un cercle. On place sur un plan cartésien les points en corrdonnée X et Y. Une fois fait, on dessine un rond dans ce plan et on rejette tous les points qui sont hors de ce rond ([Rejection Sampling](https://en.wikipedia.org/wiki/Rejection_sampling)). En bref, chaque point dont la coordonnée dépasse le cercle compris dans le carré est rejeté. Puis on recommence le processus.
+La méthode rapide et primaire consiste à dessiner un carré plutôt qu'un cercle. On place sur un plan cartésien les points en coordonnée X et Y. Une fois fait, on dessine un rond dans ce plan et on rejette tous les points qui sont hors de ce rond ([Rejection Sampling](https://en.wikipedia.org/wiki/Rejection_sampling)). En bref, chaque point dont la coordonnée dépasse le cercle compris dans le carré est rejeté. Puis on recommence le processus.
 
 La problématique est donc qu'on répète l'opération plusieurs fois. Certains points sont ignorés, d'autres sont acceptés; ce qui rend en apparence la méthode redondante.
 

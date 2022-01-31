@@ -11,27 +11,27 @@ readingTime = true
 
 ## Introduction
 
-J'ai entendu parler du chiffre d'or plusieurs fois. Il semble qu'il fasse office d'une mode, temporaire ou pas, dans le monde du design. Mais à quel point ce chiffre est pertinenent dans son utilisation ?
+J'ai entendu parler du chiffre d'or plusieurs fois. Il semble qu'il fasse office d'une mode, temporaire ou pas, dans le monde du design. Mais à quel point ce chiffre est pertinent dans son utilisation ?
 
 ## Définition
 
-Avant de s'attarder sur l'utilisation du célbère chiffre d'or, il est important de faire un petit rappel de ce qu'il représente. Si on se base la définition de [l'article Wikipedia](https://fr.wikipedia.org/wiki/Nombre_d%27or), on peut la résumer ainsi:
+Avant de s'attarder sur l'utilisation du célèbre chiffre d'or, il est important de faire un petit rappel de ce qu'il représente. Si on se base la définition de [l'article Wikipedia](https://fr.wikipedia.org/wiki/Nombre_d%27or), on peut la résumer ainsi:
 
-> Deux grandeurs a et b (où a>b) représente un chiffre d'or φ si leur ratio est le même que le ratio "somme de a et b" divisé par a
+> Deux grandeurs a et b (où a>b) représentent un chiffre d'or φ si leur ratio est le même que le ratio "somme de a et b" divisé par a
 
 On accompagne le tout d'une petite formule: `φ = a / b = (a+b) / a`
 
-D'ailleurs, si on définit que `a = 1`, on obtient environt 0.618 pour b, ce qui nous donne un nombre irrationnel pour φ, soit 1.618033…
+D'ailleurs, si on définit que `a = 1`, on obtient environ 0.618 pour b, ce qui nous donne un nombre irrationnel pour φ, soit 1.618033…
 
-De cette base, on peut initialiser un rectangle d'or, dont le côté est à la proportion du chiffre d'or. Ce rectangle peut contenir un carré à l'intérieur. Le premier rectangle est redivisé de la même manière, est ainsi de suite… donnant la fameuse spirale d'or; également appelée [la suite de Fibonacci](https://fr.wikipedia.org/wiki/Suite_de_Fibonacci)
+De cette base, on peut initialiser un rectangle d'or, dont le côté est à la proportion du chiffre d'or. Ce rectangle peut contenir un carré à l'intérieur. Le premier rectangle est re-divisé de la même manière, est ainsi de suite… donnant la fameuse spirale d'or; également appelée [la suite de Fibonacci](https://fr.wikipedia.org/wiki/Suite_de_Fibonacci)
 
 ![](https://www.pngkit.com/png/detail/300-3007295_image-fibonacci-spiral-svg-golden-spiral-png.png)
 
-Ce ratio est donc utilisé dans plusieurs domaines différents, car réputé pour être esthétique. Bien qu'il n'y ait aucun fondement scientifique, cela peut faire office d'un guide dans le domaine du design; notamment: en conception d'interface.
+Ce ratio est donc utilisé dans plusieurs domaines différents, car réputé pour être esthétique. Bien qu'il n'y ait aucun fondement scientifique, cela peut faire office d'un guide dans le monde du design; notamment: en conception d'interface.
 
 ## Utilisation
 
-Le chiffre d'or peut typiquement être utilisé dans le domain de la typographie. Par exemple, le ratio entre la hauteur de ligne et la taille de font peut s'appuyer sur le nombre d'or. Couplé à celà, on peut l'utiliser pour définir l'espacement entre les paragraphes et l'en-tête.
+Le chiffre d'or peut typiquement être utilisé dans le domaine de la typographie. Par exemple, le ratio entre la hauteur de ligne et la taille de font peut s'appuyer sur le nombre d'or. Couplé à cela, on peut l'utiliser pour définir l'espacement entre les paragraphes et l'en-tête.
 
 L'application du rectangle d'or peut être fait dans le cadre d'une grille pour une interface. Par exemple, le ratio donné sur un site, séparant le contenu principal et la navigation.
 
