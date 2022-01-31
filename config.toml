@@ -1,4 +1,4 @@
-baseURL = ''
+baseURL = '/'
 languageCode = 'ch-fr'
 title = "Un blog qui parle de développement web, de design et d'autres trucs de geek"
 theme = "terminal"
