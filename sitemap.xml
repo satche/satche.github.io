@@ -38,7 +38,19 @@
     <loc>/tags/tool/</loc>
     <lastmod>2022-01-23T10:36:19+01:00</lastmod>
   </url><url>
+    <loc>/tags/article/</loc>
+    <lastmod>2022-01-19T09:46:37+01:00</lastmod>
+  </url><url>
+    <loc>/tags/interview/</loc>
+    <lastmod>2022-01-19T09:46:37+01:00</lastmod>
+  </url><url>
+    <loc>/tags/recherche/</loc>
+    <lastmod>2022-01-19T09:46:37+01:00</lastmod>
+  </url><url>
     <loc>/posts/interviews/</loc>
+    <lastmod>2022-01-19T09:46:37+01:00</lastmod>
+  </url><url>
+    <loc>/tags/test-utilisateurs/</loc>
     <lastmod>2022-01-19T09:46:37+01:00</lastmod>
   </url><url>
     <loc>/tags/algorithme/</loc>
@@ -74,9 +86,6 @@
     <loc>/posts/reshot/</loc>
     <lastmod>2022-01-05T17:57:35+01:00</lastmod>
   </url><url>
-    <loc>/tags/article/</loc>
-    <lastmod>2021-11-15T13:54:37+01:00</lastmod>
-  </url><url>
     <loc>/posts/le-chiffre-dor/</loc>
     <lastmod>2021-11-15T13:54:37+01:00</lastmod>
   </url><url>
@@ -87,5 +96,7 @@
     <lastmod>2021-11-15T13:54:37+01:00</lastmod>
   </url><url>
     <loc>/categories/</loc>
+  </url><url>
+    <loc>/tags/ux/ui/</loc>
   </url>
 </urlset>
