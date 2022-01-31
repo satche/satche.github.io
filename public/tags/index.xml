@@ -2,187 +2,187 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Un blog qui parle de développement web, de design et d&#39;autres trucs de geek</title>
-    <link>localhost/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on Un blog qui parle de développement web, de design et d&#39;autres trucs de geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ch-fr</language>
-    <lastBuildDate>Sun, 23 Jan 2022 10:36:19 +0100</lastBuildDate><atom:link href="localhost/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 23 Jan 2022 10:36:19 +0100</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AI</title>
-      <link>localhost/tags/ai/</link>
+      <link>/tags/ai/</link>
       <pubDate>Sun, 23 Jan 2022 10:36:19 +0100</pubDate>
       
-      <guid>localhost/tags/ai/</guid>
+      <guid>/tags/ai/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>Code</title>
-      <link>localhost/tags/code/</link>
+      <link>/tags/code/</link>
       <pubDate>Sun, 23 Jan 2022 10:36:19 +0100</pubDate>
       
-      <guid>localhost/tags/code/</guid>
+      <guid>/tags/code/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>Copilot</title>
-      <link>localhost/tags/copilot/</link>
+      <link>/tags/copilot/</link>
       <pubDate>Sun, 23 Jan 2022 10:36:19 +0100</pubDate>
       
-      <guid>localhost/tags/copilot/</guid>
+      <guid>/tags/copilot/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>Github</title>
-      <link>localhost/tags/github/</link>
+      <link>/tags/github/</link>
       <pubDate>Sun, 23 Jan 2022 10:36:19 +0100</pubDate>
       
-      <guid>localhost/tags/github/</guid>
+      <guid>/tags/github/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>Machine learning</title>
-      <link>localhost/tags/machine-learning/</link>
+      <link>/tags/machine-learning/</link>
       <pubDate>Sun, 23 Jan 2022 10:36:19 +0100</pubDate>
       
-      <guid>localhost/tags/machine-learning/</guid>
+      <guid>/tags/machine-learning/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>Tool</title>
-      <link>localhost/tags/tool/</link>
+      <link>/tags/tool/</link>
       <pubDate>Sun, 23 Jan 2022 10:36:19 +0100</pubDate>
       
-      <guid>localhost/tags/tool/</guid>
+      <guid>/tags/tool/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>Algorithme</title>
-      <link>localhost/tags/algorithme/</link>
+      <link>/tags/algorithme/</link>
       <pubDate>Wed, 12 Jan 2022 19:53:44 +0100</pubDate>
       
-      <guid>localhost/tags/algorithme/</guid>
+      <guid>/tags/algorithme/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>Développement</title>
-      <link>localhost/tags/d%C3%A9veloppement/</link>
+      <link>/tags/d%C3%A9veloppement/</link>
       <pubDate>Wed, 12 Jan 2022 19:53:44 +0100</pubDate>
       
-      <guid>localhost/tags/d%C3%A9veloppement/</guid>
+      <guid>/tags/d%C3%A9veloppement/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>Logique</title>
-      <link>localhost/tags/logique/</link>
+      <link>/tags/logique/</link>
       <pubDate>Wed, 12 Jan 2022 19:53:44 +0100</pubDate>
       
-      <guid>localhost/tags/logique/</guid>
+      <guid>/tags/logique/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>Design</title>
-      <link>localhost/tags/design/</link>
+      <link>/tags/design/</link>
       <pubDate>Wed, 05 Jan 2022 17:57:35 +0100</pubDate>
       
-      <guid>localhost/tags/design/</guid>
+      <guid>/tags/design/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>Icons</title>
-      <link>localhost/tags/icons/</link>
+      <link>/tags/icons/</link>
       <pubDate>Wed, 05 Jan 2022 17:57:35 +0100</pubDate>
       
-      <guid>localhost/tags/icons/</guid>
+      <guid>/tags/icons/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>Illustration</title>
-      <link>localhost/tags/illustration/</link>
+      <link>/tags/illustration/</link>
       <pubDate>Wed, 05 Jan 2022 17:57:35 +0100</pubDate>
       
-      <guid>localhost/tags/illustration/</guid>
+      <guid>/tags/illustration/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>Libraries</title>
-      <link>localhost/tags/libraries/</link>
+      <link>/tags/libraries/</link>
       <pubDate>Wed, 05 Jan 2022 17:57:35 +0100</pubDate>
       
-      <guid>localhost/tags/libraries/</guid>
+      <guid>/tags/libraries/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>Outil</title>
-      <link>localhost/tags/outil/</link>
+      <link>/tags/outil/</link>
       <pubDate>Wed, 05 Jan 2022 17:57:35 +0100</pubDate>
       
-      <guid>localhost/tags/outil/</guid>
+      <guid>/tags/outil/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>Plateforme</title>
-      <link>localhost/tags/plateforme/</link>
+      <link>/tags/plateforme/</link>
       <pubDate>Wed, 05 Jan 2022 17:57:35 +0100</pubDate>
       
-      <guid>localhost/tags/plateforme/</guid>
+      <guid>/tags/plateforme/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>Article</title>
-      <link>localhost/tags/article/</link>
+      <link>/tags/article/</link>
       <pubDate>Mon, 15 Nov 2021 13:54:37 +0100</pubDate>
       
-      <guid>localhost/tags/article/</guid>
+      <guid>/tags/article/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>Mathématique</title>
-      <link>localhost/tags/math%C3%A9matique/</link>
+      <link>/tags/math%C3%A9matique/</link>
       <pubDate>Mon, 15 Nov 2021 13:54:37 +0100</pubDate>
       
-      <guid>localhost/tags/math%C3%A9matique/</guid>
+      <guid>/tags/math%C3%A9matique/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>Pattern</title>
-      <link>localhost/tags/pattern/</link>
+      <link>/tags/pattern/</link>
       <pubDate>Mon, 15 Nov 2021 13:54:37 +0100</pubDate>
       
-      <guid>localhost/tags/pattern/</guid>
+      <guid>/tags/pattern/</guid>
       <description></description>
       <content></content>
     </item>
