@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recherche on Un blog qui parle de développement web, de design et d&#39;autres trucs de geek</title>
+    <link>/tags/recherche/</link>
+    <description>Recent content in Recherche on Un blog qui parle de développement web, de design et d&#39;autres trucs de geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ch-fr</language>
+    <lastBuildDate>Wed, 19 Jan 2022 09:46:37 +0100</lastBuildDate><atom:link href="/tags/recherche/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Recherche et tests utilisateurs: combien de personnes doit-on impliquer ?</title>
+      <link>/posts/interviews/</link>
+      <pubDate>Wed, 19 Jan 2022 09:46:37 +0100</pubDate>
+      
+      <guid>/posts/interviews/</guid>
+      <description>Introduction Dans le processus de création d’un projet nécessitant l’interview d’utilisateurs, on se demande parfois combien de personnes engager. Il n&amp;rsquo;y malheureusement pas de chiffre magique et il faut souvent regarder au cas par cas, en fonction dudit projet et de ses objectifs.
+Les 5 utilisateurs Il est commun dans le domaine de parler du chiffre magique: il faudrait 5 utilisateurs pour déceler une majorité de problèmes liées au projet qu&amp;rsquo;on veut mettre en place.</description>
+      <content>&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;Dans le processus de création d’un projet nécessitant l’interview d’utilisateurs, on se demande parfois combien de personnes engager. Il n&amp;rsquo;y malheureusement pas de chiffre magique et il faut souvent regarder au cas par cas, en fonction dudit projet et de ses objectifs.&lt;/p&gt;
+&lt;h1 id=&#34;les-5-utilisateurs&#34;&gt;Les 5 utilisateurs&lt;/h1&gt;
+&lt;p&gt;Il est commun dans le domaine de parler du chiffre magique: il faudrait 5 utilisateurs pour déceler une majorité de problèmes liées au projet qu&amp;rsquo;on veut mettre en place. Selon plusieurs recherches, dont certaines menées par &lt;a href=&#34;https://www.nngroup.com&#34;&gt;NNGroup&lt;/a&gt;, affirment que ce chiffre est trop bas. Certains essaient de l&amp;rsquo;utiliser en l&amp;rsquo;attribuant par persona, ce qui peut au contraire atteindre un nombre trop haut d&amp;rsquo;interviews.&lt;/p&gt;
+&lt;h1 id=&#34;point-de-saturation&#34;&gt;Point de saturation&lt;/h1&gt;
+&lt;p&gt;Le NNGroup cherche à travers &lt;a href=&#34;https://www.nngroup.com/articles/interview-sample-size/&#34;&gt;son article&lt;/a&gt; à nous sensibiliser sur l&amp;rsquo;utilisation de ce chiffre magique. Ce dernier est finalement variable en fonction de beaucoup de facteurs. Quels sont les objectifs visés ? Que test-on ? Vise-t-on un segment de population précis ou l&amp;rsquo;échantillon doit être le plus large que possible ?&lt;/p&gt;
+&lt;p&gt;L&amp;rsquo;objectif est donc plutôt de déterminer le point de saturation, c&amp;rsquo;est-à-dire le moment où plus le nombre de participants sont inclus dans le processus, moins de nouveaux input émergent. Il serait donc recommandé de commencer par récolter les avis de quelques utilisateurs et de poursuivre les tests en fonction des résultats obtenus lors des premières interviews.&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>

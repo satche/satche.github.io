@@ -68,6 +68,46 @@
     </item>
     
     <item>
+      <title>Article</title>
+      <link>/tags/article/</link>
+      <pubDate>Wed, 19 Jan 2022 09:46:37 +0100</pubDate>
+      
+      <guid>/tags/article/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Interview</title>
+      <link>/tags/interview/</link>
+      <pubDate>Wed, 19 Jan 2022 09:46:37 +0100</pubDate>
+      
+      <guid>/tags/interview/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Recherche</title>
+      <link>/tags/recherche/</link>
+      <pubDate>Wed, 19 Jan 2022 09:46:37 +0100</pubDate>
+      
+      <guid>/tags/recherche/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Test utilisateurs</title>
+      <link>/tags/test-utilisateurs/</link>
+      <pubDate>Wed, 19 Jan 2022 09:46:37 +0100</pubDate>
+      
+      <guid>/tags/test-utilisateurs/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
       <title>Algorithme</title>
       <link>/tags/algorithme/</link>
       <pubDate>Wed, 12 Jan 2022 19:53:44 +0100</pubDate>
@@ -158,16 +198,6 @@
     </item>
     
     <item>
-      <title>Article</title>
-      <link>/tags/article/</link>
-      <pubDate>Mon, 15 Nov 2021 13:54:37 +0100</pubDate>
-      
-      <guid>/tags/article/</guid>
-      <description></description>
-      <content></content>
-    </item>
-    
-    <item>
       <title>Mathématique</title>
       <link>/tags/math%C3%A9matique/</link>
       <pubDate>Mon, 15 Nov 2021 13:54:37 +0100</pubDate>
@@ -183,6 +213,16 @@
       <pubDate>Mon, 15 Nov 2021 13:54:37 +0100</pubDate>
       
       <guid>/tags/pattern/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>UX/UI</title>
+      <link>/tags/ux/ui/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/ux/ui/</guid>
       <description></description>
       <content></content>
     </item>
