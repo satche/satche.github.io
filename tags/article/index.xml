@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Article on Un blog qui parle de développement web, de design et d&#39;autres trucs de geek</title>
+    <link>localhost/tags/article/</link>
+    <description>Recent content in Article on Un blog qui parle de développement web, de design et d&#39;autres trucs de geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ch-fr</language>
+    <lastBuildDate>Mon, 15 Nov 2021 13:54:37 +0100</lastBuildDate><atom:link href="localhost/tags/article/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Le chiffre d&#39;or et son utilisation en design d&#39;interface</title>
+      <link>localhost/posts/le-chiffre-dor/</link>
+      <pubDate>Mon, 15 Nov 2021 13:54:37 +0100</pubDate>
+      
+      <guid>localhost/posts/le-chiffre-dor/</guid>
+      <description>Introduction J&amp;rsquo;ai entendu parler du chiffre d&amp;rsquo;or plusieurs fois. Il semble qu&amp;rsquo;il fasse office d&amp;rsquo;une mode, temporaire ou pas, dans le monde du design. Mais à quel point ce chiffre est pertinenent dans son utilisation ?
+Définition Avant de s&amp;rsquo;attarder sur l&amp;rsquo;utilisation du célbère chiffre d&amp;rsquo;or, il est important de faire un petit rappel de ce qu&amp;rsquo;il représente. Si on se base la définition de l&amp;rsquo;article Wikipedia, on peut la résumer ainsi:</description>
+      <content>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;J&amp;rsquo;ai entendu parler du chiffre d&amp;rsquo;or plusieurs fois. Il semble qu&amp;rsquo;il fasse office d&amp;rsquo;une mode, temporaire ou pas, dans le monde du design. Mais à quel point ce chiffre est pertinenent dans son utilisation ?&lt;/p&gt;
+&lt;h2 id=&#34;définition&#34;&gt;Définition&lt;/h2&gt;
+&lt;p&gt;Avant de s&amp;rsquo;attarder sur l&amp;rsquo;utilisation du célbère chiffre d&amp;rsquo;or, il est important de faire un petit rappel de ce qu&amp;rsquo;il représente. Si on se base la définition de &lt;a href=&#34;https://fr.wikipedia.org/wiki/Nombre_d%27or&#34;&gt;l&amp;rsquo;article Wikipedia&lt;/a&gt;, on peut la résumer ainsi:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Deux grandeurs a et b (où a&amp;gt;b) représente un chiffre d&amp;rsquo;or φ si leur ratio est le même que le ratio &amp;ldquo;somme de a et b&amp;rdquo; divisé par a&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;On accompagne le tout d&amp;rsquo;une petite formule: &lt;code&gt;φ = a / b = (a+b) / a&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;D&amp;rsquo;ailleurs, si on définit que &lt;code&gt;a = 1&lt;/code&gt;, on obtient environt 0.618 pour b, ce qui nous donne un nombre irrationnel pour φ, soit 1.618033…&lt;/p&gt;
+&lt;p&gt;De cette base, on peut initialiser un rectangle d&amp;rsquo;or, dont le côté est à la proportion du chiffre d&amp;rsquo;or. Ce rectangle peut contenir un carré à l&amp;rsquo;intérieur. Le premier rectangle est redivisé de la même manière, est ainsi de suite… donnant la fameuse spirale d&amp;rsquo;or; également appelée &lt;a href=&#34;https://fr.wikipedia.org/wiki/Suite_de_Fibonacci&#34;&gt;la suite de Fibonacci&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.pngkit.com/png/detail/300-3007295_image-fibonacci-spiral-svg-golden-spiral-png.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Ce ratio est donc utilisé dans plusieurs domaines différents, car réputé pour être esthétique. Bien qu&amp;rsquo;il n&amp;rsquo;y ait aucun fondement scientifique, cela peut faire office d&amp;rsquo;un guide dans le domaine du design; notamment: en conception d&amp;rsquo;interface.&lt;/p&gt;
+&lt;h2 id=&#34;utilisation&#34;&gt;Utilisation&lt;/h2&gt;
+&lt;p&gt;Le chiffre d&amp;rsquo;or peut typiquement être utilisé dans le domain de la typographie. Par exemple, le ratio entre la hauteur de ligne et la taille de font peut s&amp;rsquo;appuyer sur le nombre d&amp;rsquo;or. Couplé à celà, on peut l&amp;rsquo;utiliser pour définir l&amp;rsquo;espacement entre les paragraphes et l&amp;rsquo;en-tête.&lt;/p&gt;
+&lt;p&gt;L&amp;rsquo;application du rectangle d&amp;rsquo;or peut être fait dans le cadre d&amp;rsquo;une grille pour une interface. Par exemple, le ratio donné sur un site, séparant le contenu principal et la navigation.&lt;/p&gt;
+&lt;p&gt;La spirale d&amp;rsquo;or peut, quant à elle, faire office d&amp;rsquo;un canvas pour des mises en page. Au même titre que la &lt;a href=&#34;https://fr.wikipedia.org/wiki/R%C3%A8gle_des_tiers&#34;&gt;règle des tiers&lt;/a&gt;, son utilisation dans l&amp;rsquo;imagerie permet de centrer le sujet efficacement.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Sources&lt;/strong&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.nngroup.com/articles/golden-ratio-ui-design/&#34;&gt;The Golden Ratio and User-Interface Design&lt;/a&gt;, by &lt;a href=&#34;https://www.nngroup.com/&#34;&gt;Nielsen Norman Group&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>

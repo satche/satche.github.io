@@ -2,17 +2,84 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>localhost/posts/first-post/</loc>
-    <lastmod>2021-11-15T13:54:37+01:00</lastmod>
+    <loc>localhost/tags/ai/</loc>
+    <lastmod>2022-01-23T10:36:19+01:00</lastmod>
+  </url><url>
+    <loc>localhost/tags/code/</loc>
+    <lastmod>2022-01-23T10:36:19+01:00</lastmod>
+  </url><url>
+    <loc>localhost/tags/copilot/</loc>
+    <lastmod>2022-01-23T10:36:19+01:00</lastmod>
+  </url><url>
+    <loc>localhost/tags/github/</loc>
+    <lastmod>2022-01-23T10:36:19+01:00</lastmod>
+  </url><url>
+    <loc>localhost/posts/copilot/</loc>
+    <lastmod>2022-01-23T10:36:19+01:00</lastmod>
+  </url><url>
+    <loc>localhost/tags/machine-learning/</loc>
+    <lastmod>2022-01-23T10:36:19+01:00</lastmod>
   </url><url>
     <loc>localhost/posts/</loc>
-    <lastmod>2021-11-15T13:54:37+01:00</lastmod>
+    <lastmod>2022-01-23T10:36:19+01:00</lastmod>
+  </url><url>
+    <loc>localhost/tags/</loc>
+    <lastmod>2022-01-23T10:36:19+01:00</lastmod>
+  </url><url>
+    <loc>localhost/tags/tool/</loc>
+    <lastmod>2022-01-23T10:36:19+01:00</lastmod>
   </url><url>
     <loc>localhost/</loc>
+    <lastmod>2022-01-23T10:36:19+01:00</lastmod>
+  </url><url>
+    <loc>localhost/posts/interviews/</loc>
+    <lastmod>2022-01-19T09:46:37+01:00</lastmod>
+  </url><url>
+    <loc>localhost/tags/algorithme/</loc>
+    <lastmod>2022-01-12T19:53:44+01:00</lastmod>
+  </url><url>
+    <loc>localhost/posts/point/</loc>
+    <lastmod>2022-01-12T19:53:44+01:00</lastmod>
+  </url><url>
+    <loc>localhost/tags/d%C3%A9veloppement/</loc>
+    <lastmod>2022-01-12T19:53:44+01:00</lastmod>
+  </url><url>
+    <loc>localhost/tags/logique/</loc>
+    <lastmod>2022-01-12T19:53:44+01:00</lastmod>
+  </url><url>
+    <loc>localhost/tags/design/</loc>
+    <lastmod>2022-01-05T17:57:35+01:00</lastmod>
+  </url><url>
+    <loc>localhost/tags/icons/</loc>
+    <lastmod>2022-01-05T17:57:35+01:00</lastmod>
+  </url><url>
+    <loc>localhost/tags/illustration/</loc>
+    <lastmod>2022-01-05T17:57:35+01:00</lastmod>
+  </url><url>
+    <loc>localhost/tags/libraries/</loc>
+    <lastmod>2022-01-05T17:57:35+01:00</lastmod>
+  </url><url>
+    <loc>localhost/tags/outil/</loc>
+    <lastmod>2022-01-05T17:57:35+01:00</lastmod>
+  </url><url>
+    <loc>localhost/tags/plateforme/</loc>
+    <lastmod>2022-01-05T17:57:35+01:00</lastmod>
+  </url><url>
+    <loc>localhost/posts/reshot/</loc>
+    <lastmod>2022-01-05T17:57:35+01:00</lastmod>
+  </url><url>
+    <loc>localhost/tags/article/</loc>
+    <lastmod>2021-11-15T13:54:37+01:00</lastmod>
+  </url><url>
+    <loc>localhost/posts/le-chiffre-dor/</loc>
+    <lastmod>2021-11-15T13:54:37+01:00</lastmod>
+  </url><url>
+    <loc>localhost/tags/math%C3%A9matique/</loc>
+    <lastmod>2021-11-15T13:54:37+01:00</lastmod>
+  </url><url>
+    <loc>localhost/tags/pattern/</loc>
     <lastmod>2021-11-15T13:54:37+01:00</lastmod>
   </url><url>
     <loc>localhost/categories/</loc>
-  </url><url>
-    <loc>localhost/tags/</loc>
   </url>
 </urlset>

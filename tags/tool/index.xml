@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tool on Un blog qui parle de développement web, de design et d&#39;autres trucs de geek</title>
+    <link>localhost/tags/tool/</link>
+    <description>Recent content in Tool on Un blog qui parle de développement web, de design et d&#39;autres trucs de geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ch-fr</language>
+    <lastBuildDate>Sun, 23 Jan 2022 10:36:19 +0100</lastBuildDate><atom:link href="localhost/tags/tool/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Github Copilot, le compagnon de code qui mâche le travail</title>
+      <link>localhost/posts/copilot/</link>
+      <pubDate>Sun, 23 Jan 2022 10:36:19 +0100</pubDate>
+      
+      <guid>localhost/posts/copilot/</guid>
+      <description>Introduction Annoncé le 29 juin 2021, Github Copilot est un outil à IA permettant de faire de l&amp;rsquo;auto-completion sur la base de milliards de ligne de code trouvés sur Github. Un outil sensé faire gagner beaucoup de temps et même empêcher les plus flemmards à se casser la tête sur des fonctions compliquées. Installé sur ma machine, je vais directement montrer ici les étendues du programme.
+Premier essai: convertisseur de distance Pour ce premier jet, je vais essayer de faire comprendre à Copilot que je veux une fonction qui convertit une distance en pied en mètres.</description>
+      <content>&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;Annoncé le 29 juin 2021, Github Copilot est un outil à IA permettant de faire de l&amp;rsquo;auto-completion sur la base de milliards de ligne de code trouvés sur Github. Un outil sensé faire gagner beaucoup de temps et même empêcher les plus flemmards à se casser la tête sur des fonctions compliquées. Installé sur ma machine, je vais directement montrer ici les étendues du programme.&lt;/p&gt;
+&lt;h1 id=&#34;premier-essai-convertisseur-de-distance&#34;&gt;Premier essai: convertisseur de distance&lt;/h1&gt;
+&lt;p&gt;Pour ce premier jet, je vais essayer de faire comprendre à Copilot que je veux une fonction qui convertit une distance en pied en mètres. J&amp;rsquo;écris donc en commentaire le plus précisément possible le but de la fonction et la nomme correctement, le tout en anglais pour faciliter le travail.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;/**
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt; * Convert a distance given in foot to a distance in meter.
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt; * @param {Number} distanceInFoot
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt; * @return {Number} distanceInMeter
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt; */&lt;/span&gt;
+&lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;convertFootInMeter&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;distanceInFoot&lt;/span&gt;) {
+	&lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;distanceInFoot&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0.3048&lt;/span&gt;; &lt;span style=&#34;color:#75715e&#34;&gt;// &amp;lt;- code généré par Copilot
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Le calcul est correct: 1 pied fait bien 0.3048 mètres. Si on veut aller dans le détail, Copilot aurait pu aller plus loin. Par exemple, la fonction pourrait faire un contrôle de la valeur donnée en argument, vérifier qu&amp;rsquo;elle ne soit par exemple pas &lt;code&gt;null&lt;/code&gt; ou &lt;code&gt;undefined&lt;/code&gt;. Il aurait pu également proposer un arrondissement de la valeur. Prudence donc de ne pas utiliser la sortie comme fonction toute faite mais plutôt comme un premier jet pour son élaboration.&lt;/p&gt;
+&lt;h1 id=&#34;deuxième-essai-récupérer-une-image-sur-unsplash&#34;&gt;Deuxième essai: récupérer une image sur Unsplash&lt;/h1&gt;
+&lt;p&gt;Pour ce deuxième essai, je vais demander à Copilot de me générer une fonction qui récupère aléatoirement une image sur le site &lt;a href=&#34;https://unsplash.com/&#34;&gt;Unsplash&lt;/a&gt;. Je vous invite d&amp;rsquo;ailleurs à aller lire l&amp;rsquo;article sur &lt;a href=&#34;../reshot&#34;&gt;Reshot&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;/**
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt; * Fetch a ranom image from https://unsplash.com
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt; * @return {String} The url of the image
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt; */&lt;/span&gt;
+&lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;fetchImageFromUnsplash&lt;/span&gt;() {
+	&lt;span style=&#34;color:#75715e&#34;&gt;// Code généré par Copilot:
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;	&lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;fetch&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;https://source.unsplash.com/random&amp;#34;&lt;/span&gt;).&lt;span style=&#34;color:#a6e22e&#34;&gt;then&lt;/span&gt;(
+		&lt;span style=&#34;color:#a6e22e&#34;&gt;response&lt;/span&gt; =&amp;gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;response&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;url&lt;/span&gt;
+	);
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Par chance, l&amp;rsquo;API de Unsplash propose une ressource pour récupérer une image aléatoire. Copilot l&amp;rsquo;a bien compris et l&amp;rsquo;a intégré. Il manque cependant une gestion d&amp;rsquo;erreur au cas où la requête n&amp;rsquo;aboutirait pas. À nouveau, pratique mais à contrôler avant de lancer en production.&lt;/p&gt;
+&lt;h1 id=&#34;troisième-essai-générateur-de-blague&#34;&gt;Troisième essai: générateur de blague&lt;/h1&gt;
+&lt;p&gt;Juste pour le plaisir, essayons de demander à Copilot de générer une fonction qui sort une blague aléatoirement. Cette fois-ci, je ne préciserai expressément pas de source afin de voir comment il réagit.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;/**
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt; * Generate a random joke
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt; * @return {String} The generated joke
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt; */&lt;/span&gt;
+&lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;generateRandomJoke&lt;/span&gt;() {
+	&lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;This is a random joke&amp;#34;&lt;/span&gt;; &lt;span style=&#34;color:#75715e&#34;&gt;// &amp;lt;- code généré par Copilot
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Un résultat qui montre les limites de l&amp;rsquo;outil. Mais je dois admettre qu&amp;rsquo;il m&amp;rsquo;a bien eu :)&lt;/p&gt;
+&lt;h1 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h1&gt;
+&lt;p&gt;L&amp;rsquo;outil est très impressionant et permet d&amp;rsquo;anticiper des lignes de code fastidieuse. À utiliser avec rigueur et attention: le code généré par Copilot est sur la base de milliards de lignes de code récupérées via des repo public sur Github, ce qui n&amp;rsquo;est pas synonyme de qualité.&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>

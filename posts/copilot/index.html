@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Github Copilot, le compagnon de code qui mâche le travail :: Un blog qui parle de développement web, de design et d&#39;autres trucs de geek</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Copilot est le nouvel outil de Github. Basé sur du machine learning, ce programme sert à auto-compléter le code à la volée. Découverte." />
+<meta name="keywords" content="" />
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="localhost/posts/copilot/" />
+
+
+
+
+<link rel="stylesheet" href="localhost/assets/style.css">
+
+  <link rel="stylesheet" href="localhost/assets/red.css">
+
+
+
+
+
+
+<link rel="apple-touch-icon" href="localhost/img/apple-touch-icon-192x192.png">
+
+  <link rel="shortcut icon" href="localhost/img/favicon/red.png">
+
+
+
+<meta name="twitter:card" content="summary" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Github Copilot, le compagnon de code qui mâche le travail">
+<meta property="og:description" content="Copilot est le nouvel outil de Github. Basé sur du machine learning, ce programme sert à auto-compléter le code à la volée. Découverte." />
+<meta property="og:url" content="localhost/posts/copilot/" />
+<meta property="og:site_name" content="Un blog qui parle de développement web, de design et d&#39;autres trucs de geek" />
+
+  <meta property="og:image" content="https://copilot.github.com/diagram.png">
+
+<meta property="og:image:width" content="2048">
+<meta property="og:image:height" content="1024">
+
+
+  <meta property="article:published_time" content="2022-01-23 10:36:19 &#43;0100 CET" />
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body class="red">
+
+
+<div class="container center headings--one-size">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="localhost">
+  <div class="logo">
+    De l&#39;encre et du pixel
+  </div>
+</a>
+
+    </div>
+    
+      <div class="menu-trigger">menu</div>
+    
+  </div>
+  
+    <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="localhost/page/about">À propos</a></li>
+        
+      
+    
+
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="localhost/page/about">À propos</a></li>
+      
+    
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<div class="post">
+  <h1 class="post-title">
+    <a href="localhost/posts/copilot/">Github Copilot, le compagnon de code qui mâche le travail</a></h1>
+  <div class="post-meta">
+    
+      <span class="post-date">
+        2022-01-23
+        
+      </span>
+    
+    
+    
+  </div>
+
+  
+  <span class="post-tags">
+    
+    #<a href="localhost/tags/code/">Code</a>&nbsp;
+    
+    #<a href="localhost/tags/ai/">AI</a>&nbsp;
+    
+    #<a href="localhost/tags/github/">Github</a>&nbsp;
+    
+    #<a href="localhost/tags/machine-learning/">Machine learning</a>&nbsp;
+    
+    #<a href="localhost/tags/copilot/">Copilot</a>&nbsp;
+    
+    #<a href="localhost/tags/tool/">Tool</a>&nbsp;
+    
+  </span>
+  
+  
+  <img src="https://copilot.github.com/diagram.png"
+    class="post-cover"
+    alt="Github Copilot, le compagnon de code qui mâche le travail"
+    title="Cover Image" />
+
+
+  
+
+  <div class="post-content"><div>
+        <h1 id="introduction">Introduction<a href="#introduction" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
+<p>Annoncé le 29 juin 2021, Github Copilot est un outil à IA permettant de faire de l&rsquo;auto-completion sur la base de milliards de ligne de code trouvés sur Github. Un outil sensé faire gagner beaucoup de temps et même empêcher les plus flemmards à se casser la tête sur des fonctions compliquées. Installé sur ma machine, je vais directement montrer ici les étendues du programme.</p>
+<h1 id="premier-essai-convertisseur-de-distance">Premier essai: convertisseur de distance<a href="#premier-essai-convertisseur-de-distance" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
+<p>Pour ce premier jet, je vais essayer de faire comprendre à Copilot que je veux une fonction qui convertit une distance en pied en mètres. J&rsquo;écris donc en commentaire le plus précisément possible le but de la fonction et la nomme correctement, le tout en anglais pour faciliter le travail.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#75715e">/**
+</span><span style="color:#75715e"> * Convert a distance given in foot to a distance in meter.
+</span><span style="color:#75715e"> * @param {Number} distanceInFoot
+</span><span style="color:#75715e"> * @return {Number} distanceInMeter
+</span><span style="color:#75715e"> */</span>
+<span style="color:#66d9ef">function</span> <span style="color:#a6e22e">convertFootInMeter</span>(<span style="color:#a6e22e">distanceInFoot</span>) {
+	<span style="color:#66d9ef">return</span> <span style="color:#a6e22e">distanceInFoot</span> <span style="color:#f92672">*</span> <span style="color:#ae81ff">0.3048</span>; <span style="color:#75715e">// &lt;- code généré par Copilot
+</span><span style="color:#75715e"></span>}
+</code></pre></div><p>Le calcul est correct: 1 pied fait bien 0.3048 mètres. Si on veut aller dans le détail, Copilot aurait pu aller plus loin. Par exemple, la fonction pourrait faire un contrôle de la valeur donnée en argument, vérifier qu&rsquo;elle ne soit par exemple pas <code>null</code> ou <code>undefined</code>. Il aurait pu également proposer un arrondissement de la valeur. Prudence donc de ne pas utiliser la sortie comme fonction toute faite mais plutôt comme un premier jet pour son élaboration.</p>
+<h1 id="deuxième-essai-récupérer-une-image-sur-unsplash">Deuxième essai: récupérer une image sur Unsplash<a href="#deuxième-essai-récupérer-une-image-sur-unsplash" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
+<p>Pour ce deuxième essai, je vais demander à Copilot de me générer une fonction qui récupère aléatoirement une image sur le site <a href="https://unsplash.com/">Unsplash</a>. Je vous invite d&rsquo;ailleurs à aller lire l&rsquo;article sur <a href="../reshot">Reshot</a>.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#75715e">/**
+</span><span style="color:#75715e"> * Fetch a ranom image from https://unsplash.com
+</span><span style="color:#75715e"> * @return {String} The url of the image
+</span><span style="color:#75715e"> */</span>
+<span style="color:#66d9ef">function</span> <span style="color:#a6e22e">fetchImageFromUnsplash</span>() {
+	<span style="color:#75715e">// Code généré par Copilot:
+</span><span style="color:#75715e"></span>	<span style="color:#66d9ef">return</span> <span style="color:#a6e22e">fetch</span>(<span style="color:#e6db74">&#34;https://source.unsplash.com/random&#34;</span>).<span style="color:#a6e22e">then</span>(
+		<span style="color:#a6e22e">response</span> =&gt; <span style="color:#a6e22e">response</span>.<span style="color:#a6e22e">url</span>
+	);
+}
+</code></pre></div><p>Par chance, l&rsquo;API de Unsplash propose une ressource pour récupérer une image aléatoire. Copilot l&rsquo;a bien compris et l&rsquo;a intégré. Il manque cependant une gestion d&rsquo;erreur au cas où la requête n&rsquo;aboutirait pas. À nouveau, pratique mais à contrôler avant de lancer en production.</p>
+<h1 id="troisième-essai-générateur-de-blague">Troisième essai: générateur de blague<a href="#troisième-essai-générateur-de-blague" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
+<p>Juste pour le plaisir, essayons de demander à Copilot de générer une fonction qui sort une blague aléatoirement. Cette fois-ci, je ne préciserai expressément pas de source afin de voir comment il réagit.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#75715e">/**
+</span><span style="color:#75715e"> * Generate a random joke
+</span><span style="color:#75715e"> * @return {String} The generated joke
+</span><span style="color:#75715e"> */</span>
+<span style="color:#66d9ef">function</span> <span style="color:#a6e22e">generateRandomJoke</span>() {
+	<span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;This is a random joke&#34;</span>; <span style="color:#75715e">// &lt;- code généré par Copilot
+</span><span style="color:#75715e"></span>}
+</code></pre></div><p>Un résultat qui montre les limites de l&rsquo;outil. Mais je dois admettre qu&rsquo;il m&rsquo;a bien eu :)</p>
+<h1 id="conclusion">Conclusion<a href="#conclusion" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
+<p>L&rsquo;outil est très impressionant et permet d&rsquo;anticiper des lignes de code fastidieuse. À utiliser avec rigueur et attention: le code généré par Copilot est sur la base de milliards de lignes de code récupérées via des repo public sur Github, ce qui n&rsquo;est pas synonyme de qualité.</p>
+
+      </div></div>
+
+  
+
+  
+
+</div>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2022 Powered by <a href="http://gohugo.io">Hugo</a></span>
+    
+        <span>:: Theme made by <a href="https://twitter.com/panr">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+<script src="localhost/assets/main.js"></script>
+<script src="localhost/assets/prism.js"></script>
+
+
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>
