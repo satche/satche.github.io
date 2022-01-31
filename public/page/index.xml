@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Un blog qui parle de développement web, de design et d&#39;autres trucs de geek</title>
+    <link>/page/</link>
+    <description>Recent content in Pages on Un blog qui parle de développement web, de design et d&#39;autres trucs de geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ch-fr</language>
+    <lastBuildDate>Sun, 23 Jan 2022 19:38:08 +0100</lastBuildDate><atom:link href="/page/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>À propos</title>
+      <link>/page/about/</link>
+      <pubDate>Sun, 23 Jan 2022 19:38:08 +0100</pubDate>
+      
+      <guid>/page/about/</guid>
+      <description>Je m&amp;rsquo;appelle Thomas Robert, je suis étudiant en ingénierie des médias à la HEIG-VD. La formation est très large et aborde beaucoup de domaines différents concernant les médias, notamment numérique. C&amp;rsquo;est là que j&amp;rsquo;ai décidé de me spécialiser dans le domaine du développement web, du design d&amp;rsquo;interface et de la recherche utilisateur.
+La beauté du métier est de pouvoir agir sur beaucoup de domaines différents. J&amp;rsquo;espère pouvoir utiliser mes compétences et ma passion au service de l&amp;rsquo;écologie, de la pédagogie, de la recherche et de l&amp;rsquo;innovation.</description>
+      <content>&lt;p&gt;Je m&amp;rsquo;appelle Thomas Robert, je suis étudiant en ingénierie des médias à la HEIG-VD. La formation est très large et aborde beaucoup de domaines différents concernant les médias, notamment numérique. C&amp;rsquo;est là que j&amp;rsquo;ai décidé de me spécialiser dans le domaine du développement web, du design d&amp;rsquo;interface et de la recherche utilisateur.&lt;/p&gt;
+&lt;p&gt;La beauté du métier est de pouvoir agir sur beaucoup de domaines différents. J&amp;rsquo;espère pouvoir utiliser mes compétences et ma passion au service de l&amp;rsquo;écologie, de la pédagogie, de la recherche et de l&amp;rsquo;innovation.&lt;/p&gt;
+&lt;p&gt;Mon but avec ce blog est de pouvoir renseigner tous les sujets liés à ces domaines qui me passionnent. C&amp;rsquo;est un endroit personnel, donc les articles ne sont pas destinés directement au grand public, mais font office de notes personnelles.&lt;/p&gt;
+&lt;p&gt;Le web est un monde où il faut se tenir à jour avec rapidité et précision. Pour celà, les sources ont été répertoriées en trois grandes catégories: design, code et UX/UI. Des &amp;ldquo;sous-catégories&amp;rdquo; sont appliquées afin de diferencier plus précisément les posts: articles, documentation, outil, plateforme, &amp;hellip;etc.&lt;/p&gt;
+&lt;p&gt;Bonne visite.&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>

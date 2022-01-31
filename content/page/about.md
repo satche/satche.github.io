@@ -1,7 +1,7 @@
 ---
 title: "À propos"
 date: 2022-01-23T19:38:08+01:00
-draft: true
+type: "page"
 ---
 
 Je m'appelle Thomas Robert, je suis étudiant en ingénierie des médias à la HEIG-VD. La formation est très large et aborde beaucoup de domaines différents concernant les médias, notamment numérique. C'est là que j'ai décidé de me spécialiser dans le domaine du développement web, du design d'interface et de la recherche utilisateur.
