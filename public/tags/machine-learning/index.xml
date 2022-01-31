@@ -13,10 +13,10 @@
       <pubDate>Sun, 23 Jan 2022 10:36:19 +0100</pubDate>
       
       <guid>/posts/copilot/</guid>
-      <description>Introduction Annoncé le 29 juin 2021, Github Copilot est un outil à IA permettant de faire de l&amp;rsquo;auto-completion sur la base de milliards de ligne de code trouvés sur Github. Un outil sensé faire gagner beaucoup de temps et même empêcher les plus flemmards à se casser la tête sur des fonctions compliquées. Installé sur ma machine, je vais directement montrer ici les étendues du programme.
+      <description>Introduction Annoncé le 29 juin 2021, Github Copilot est un outil à IA permettant de faire de l&amp;rsquo;auto-completion sur la base de milliards de ligne de code trouvés sur Github. Un outil censé faire gagner beaucoup de temps et même empêcher les plus flemmards à se casser la tête sur des fonctions compliquées. Installé sur ma machine, je vais directement montrer ici les étendues du programme.
 Premier essai: convertisseur de distance Pour ce premier jet, je vais essayer de faire comprendre à Copilot que je veux une fonction qui convertit une distance en pied en mètres.</description>
       <content>&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;
-&lt;p&gt;Annoncé le 29 juin 2021, Github Copilot est un outil à IA permettant de faire de l&amp;rsquo;auto-completion sur la base de milliards de ligne de code trouvés sur Github. Un outil sensé faire gagner beaucoup de temps et même empêcher les plus flemmards à se casser la tête sur des fonctions compliquées. Installé sur ma machine, je vais directement montrer ici les étendues du programme.&lt;/p&gt;
+&lt;p&gt;Annoncé le 29 juin 2021, Github Copilot est un outil à IA permettant de faire de l&amp;rsquo;auto-completion sur la base de milliards de ligne de code trouvés sur Github. Un outil censé faire gagner beaucoup de temps et même empêcher les plus flemmards à se casser la tête sur des fonctions compliquées. Installé sur ma machine, je vais directement montrer ici les étendues du programme.&lt;/p&gt;
 &lt;h1 id=&#34;premier-essai-convertisseur-de-distance&#34;&gt;Premier essai: convertisseur de distance&lt;/h1&gt;
 &lt;p&gt;Pour ce premier jet, je vais essayer de faire comprendre à Copilot que je veux une fonction qui convertit une distance en pied en mètres. J&amp;rsquo;écris donc en commentaire le plus précisément possible le but de la fonction et la nomme correctement, le tout en anglais pour faciliter le travail.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;/**
@@ -52,7 +52,7 @@ Premier essai: convertisseur de distance Pour ce premier jet, je vais essayer de
 &lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;}
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Un résultat qui montre les limites de l&amp;rsquo;outil. Mais je dois admettre qu&amp;rsquo;il m&amp;rsquo;a bien eu :)&lt;/p&gt;
 &lt;h1 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h1&gt;
-&lt;p&gt;L&amp;rsquo;outil est très impressionant et permet d&amp;rsquo;anticiper des lignes de code fastidieuse. À utiliser avec rigueur et attention: le code généré par Copilot est sur la base de milliards de lignes de code récupérées via des repo public sur Github, ce qui n&amp;rsquo;est pas synonyme de qualité.&lt;/p&gt;
+&lt;p&gt;L&amp;rsquo;outil est très impressionnant et permet d&amp;rsquo;anticiper des lignes de code fastidieuse. À utiliser avec rigueur et attention: le code généré par Copilot est sur la base de milliards de lignes de code récupérées via des repo public sur Github, ce qui n&amp;rsquo;est pas synonyme de qualité.&lt;/p&gt;
 </content>
     </item>
     
