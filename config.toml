@@ -1,0 +1,19 @@
+baseURL = 'localhost'
+languageCode = 'ch-fr'
+title = "Un blog qui parle de développement web, de design et d'autres trucs de geek"
+theme = "terminal"
+paginate = 5
+
+[params]
+  themeColor = "red"
+  centerTheme = true
+	
+[languages.en]
+  [languages.en.params.logo]
+    logoText = "De l'encre et du pixel"
+
+  [languages.en.menu]
+    [[languages.en.menu.main]]
+      identifier = "about"
+      name = "À propos"
+      url = "/page/about"
